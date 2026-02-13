@@ -7,12 +7,12 @@ const states = {
         image: 'Snuggie.jpg',
         dialogue: "Hello Mommy! Daddy and I miss you so much.",
         buttons: [
-            { id: 'btn-primary', text: 'Mommy miss you too, Snuggie', action: 'STATE_1' }
+            { id: 'btn-primary', text: 'Mommy misses you too, Snuggie', action: 'STATE_1' }
         ]
     },
     STATE_1: {
         image: 'Snuggie.jpg',
-        dialogue: "Mommy, Daddy is asking if you will be his Valentine?",
+        dialogue: "Mommy, Daddy is asking if you will be his Valentine.",
         buttons: [
             { id: 'btn-yes', text: 'Yes', action: 'STATE_YES' },
             { id: 'btn-no', text: 'No', action: 'STATE_2' }
